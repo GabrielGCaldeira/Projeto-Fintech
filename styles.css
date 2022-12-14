@@ -1,0 +1,161 @@
+body {
+  background: #0057d9;
+}
+
+.container-lg {
+  min-height: 250px;
+  background-color: #0057d9;
+  padding: 65px;
+}
+
+#logo {
+  /*position: absolute;*/
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 140px;
+  height: 140px;
+  top: 99px;
+  left: 118px;
+}
+
+p {
+  /*text-align: center;*/
+  color: #ffffff;
+  /*width: 294px;*/
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 21px;
+  top: 275px;
+  left: 45px;
+  font-style: normal;
+  font-size: 17px;
+  line-height: 21px;
+  font-weight: 700;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 35);
+}
+
+form {
+  color: #ffffff;
+  justify-content: center;
+  display: block;
+  flex-direction: row;
+  align-items: center;
+  margin: auto;
+}
+
+#criarconta {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-decoration: none;
+  padding: 13px;
+}
+
+#login {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  max-width: 365px;
+  justify-content: center;
+  display: block;
+  flex-direction: row;
+  align-items: center;
+  margin: auto;
+  /*height: 72px;
+  top: 347px;
+  left: 45px;*/
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#password {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  max-width: 365px;
+  justify-content: center;
+  display: block;
+  flex-direction: row;
+  align-items: center;
+  margin: auto;
+  /*height: 72px;
+  top: 440px;
+  left: 45px;*/
+}
+
+#checkbox {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  max-width: 365px;
+  justify-content: center;
+  display: block;
+  flex-direction: row;
+  align-items: center;
+  margin: auto;
+}
+
+#facebook {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 55px;
+  height: 55px;
+  top: 685px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+#google {
+  background-color: #ffffff;
+  border-radius: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 51px;
+  height: 51px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+#apple {
+  background-color: #ffffff;
+  border-radius: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 51px;
+  height: 51px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+#outlook {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 51px;
+  height: 51px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+#linkedin {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 45px;
+  height: 45px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+#botão {
+  justify-content: center;
+  display: block;
+  flex-direction: row;
+  align-items: center;
+  margin: auto;
+  width: 158px;
+  height: 38px;
+  top: 533px;
+  left: 110px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
